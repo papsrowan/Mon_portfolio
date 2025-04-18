@@ -1,6 +1,9 @@
 services:
   nextjs:
     build: .
+    restart: always
+    env_file:
+      - .env.local
     ports:
       - "3003:3000"
     networks:
