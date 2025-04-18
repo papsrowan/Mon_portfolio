@@ -2,7 +2,7 @@ services:
   nextjs:
     build: .
     ports:
-      - "3000:3003"
+      - "3003:3000"
     networks:
       - app_network
 
