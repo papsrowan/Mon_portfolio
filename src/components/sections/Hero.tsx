@@ -92,6 +92,7 @@ export default function Hero() {
             </h2>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary via-blue-500 to-green-400">
               Yann Rowan
+              
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6">
               {t("hero.title")}
