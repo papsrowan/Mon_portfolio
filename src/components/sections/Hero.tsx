@@ -116,13 +116,13 @@ export default function Hero() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="relative w-full md:w-1/2 aspect-square"
+            className="relative w-full md:w-1/2 aspect-square rounded-20"
           >
             <Image
-              src="/myProfile.jpg"
+              src="/myProfile2.jpg"
               alt="Yann Rowan"
               fill
-              className="object-cover rounded-2xl"
+              className="object-cover object-[center_20%] rounded-xl"
               priority
             />
           </motion.div>
